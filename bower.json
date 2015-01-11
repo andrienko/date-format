@@ -1,0 +1,27 @@
+{
+  "name": "date-format",
+  "version": "0.1.0",
+  "homepage": "https://github.com/andrienko/date.format",
+  "authors": [
+    "andrienko <ilia@andrienko.org>"
+  ],
+  "description": "Tiny PHP-like date formatting library for JS",
+  "main": "dateformat.min.js",
+  "keywords": [
+    "date",
+    "format",
+    "tiny",
+    "php",
+    "format"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".git",
+    ".gitignore",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
