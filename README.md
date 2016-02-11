@@ -1,9 +1,7 @@
 date-format
 ===
 
-** Warning! This is not released yet. Use at your own risk et cetera. **
-
-A lightweight (~1 kb) function fo format date "like in PHP".
+A lightweight (~3 kb) function fo format date "like in PHP".
 
 Also, not all of the php patterns are available (say, timezone-specific ones aren't!). If you need more complex
 implementation you should probably use [this](http://phpjs.org/functions/date/) or
@@ -135,6 +133,6 @@ Node.js
 ---
 In Node you use it like this:
 
-    var date_format = require('date-format');
+    var date_format = require('date_format');
 
-(After installing via NPM, of course)
+(After installing via NPM, using `npm install date_format`, of course)
