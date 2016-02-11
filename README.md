@@ -20,9 +20,17 @@ Install using bower:
 
     bower install date-format --save
 
+Or via npm:
+
+    npm install date_format --save
+
 And then add dateformat.js file to your page:
 
     <script type="text/javascript" src="bower_components/date-format/date-format.js">
+
+Or use it in Node.JS
+
+    var date_format = require('date_format');
 
 Usage
 ---
@@ -128,11 +136,3 @@ ordinalSuffix is a function used for month day suffix (`S` identifier). Currentl
     dafe_format.ordinalSuffix = function(){
     
     }
-
-Node.js
----
-In Node you use it like this:
-
-    var date_format = require('date_format');
-
-(After installing via NPM, using `npm install date_format`, of course)
