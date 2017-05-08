@@ -52,7 +52,7 @@
             A : am.toUpperCase(),
             y : (""+year).substr(2,2),
             c : t.toISOString(),
-            m: lz(month),
+            m: lz(month + 1),
             U: Math.round(t/1000),
             g: hours12,
             G: lz(hours12),
